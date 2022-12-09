@@ -1,0 +1,150 @@
+<!DOCTYPE html>3
+<html>
+    <head>
+        <title>main page</title>
+        *{
+    margin:0;
+    padding: 0;
+    background-color:#fff;
+}
+
+.wrapper{
+    width: 1100;
+    margin: auto;
+}
+
+header{
+    background-color:red;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    background-color: black;
+    margin-top: 17px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color:black;
+    background-color:#fff;
+    text-decoration: none;
+    padding: 1px  30px;
+    font-family:poppins;
+    font-size: 35px;
+}
+.nav-area li a:hover{
+    background:powderblue;
+    color:blue;
+}
+
+.logo img{
+    width:150px;
+    float:left;
+    height: auto;
+}
+
+.image{
+    padding: 0% 0%;
+
+
+}
+
+
+.str{
+    font-size: 25px;
+    padding: 3% 5%;
+    font-style: oblique;
+}
+
+.child1{
+    background-color: #fff;
+    width:50%;
+    float: left;
+}
+
+.child2{
+    background-color: #fff;
+    width: 50%;
+    float: right;
+}
+
+.butn{
+
+    padding:1% 40%;
+    font-size: 10px;
+}
+.styl{
+    color:red;
+    background-color: yellow;
+}
+
+    <head>
+</html>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul class="nav-area">
+                <li><a href="file:///C:/Users/91817/Downloads/new%20html%20proj/html%20proj/revolution1.html" target="_blank">revolution</a></li>
+                <li><a href="file:///C:/Users/91817/Downloads/new%20html%20proj/HTML/products.html" target="_blank">products</a></li>
+                <li><a href="file:///C:/Users/91817/Downloads/new%20html%20proj/HTML/adv.html" target="_blank">advantages</a></li>
+                <li><a href="file:///C:/Users/91817/Downloads/my%20html%20project/contactus.html" target="_blank">contact-us</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="image" >
+            <img src="Online-Grocery-Stores-in-india 1.jpg" width="1480px"  height="600px">
+        </div>
+        <div class="butn">
+            <a href="file:///C:/Users/91817/Downloads/my%20html%20project/free%20sample.html?" target="_blank">
+                <button class="styl">
+                    <h1>Apply for free sample</h1>
+                </button>
+            </a>
+        </div>
+    <section>
+        <section class="child1">
+            <div class="str"><h1>CHALLENGES</h1></div>
+            <div class="str">
+                    providing with good
+                    products is a great challenge
+                    now a days with less price
+                    and more offers
+            </div>
+            
+
+        </section>
+        <section class="child2">
+            <div class="str">
+               The food is ending
+                so we need to save our resources
+                for our future generation so that
+                They can enjoy the food  
+            </div>
+            <div class="str">
+                 We can save our food
+                resources by vertical farming
+                and the products that we are 
+                providing are pure organic 
+                which are very good for 
+                our health
+            </div>
+        </section>
+    </section>
+
+    <div>
+        <img src="offer pic2.png" width="1480px" height="120px">
+    </div>
+</body>
+</html>
